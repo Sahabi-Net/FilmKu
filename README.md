@@ -1,18 +1,32 @@
-# flutter_application_1
+Tugas Flutter - Aplikasi FilmKu
 
-A new Flutter project.
+Aplikasi sederhana yang dibuat menggunakan Flutter.
 
-## Getting Started
+📌 Fitur Utama
 
-This project is a starting point for a Flutter application.
+Beranda (Home): Banner promo (Carousel Slider), daftar film terpopuler, dan pilihan unggulan (Card Swiper).
 
-A few resources to get you started if this is your first Flutter project:
+Navigasi Tab: Menu perpindahan halaman Beranda, Profil, dan Favorit menggunakan BottomNavigationBar.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Tema Dark Mode: Desain visual gelap dengan aksen warna merah bioskop.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# FilmKu
+📁 Struktur Folder (lib/)
+
+lib/
+├── models/
+│   └── movie_item.dart
+├── screens/
+│   ├── main_home_screen.dart
+│   ├── profile_screen.dart
+│   └── favorite_screen.dart
+├── utils/
+│   └── app_scroll_behavior.dart
+├── navigation_handler.dart
+└── main.dart
+
+
+🛠️ Package & Referensi
+
+[carousel_slider | Flutter package](https://pub.dev/packages/flutter_card_swiper)
+
+[flutter_card_swiper | Flutter package](https://pub.dev/packages/carousel_slider)
