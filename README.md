@@ -5,7 +5,7 @@ Aplikasi sederhana yang dibuat menggunakan Flutter.
 ## 📌 Fitur Utama
 - **Beranda (Home)**: Banner promo (Carousel Slider), daftar film terpopuler, dan pilihan unggulan (Card Swiper).
 - **Navigasi Tab**: Menu perpindahan halaman Beranda, Profil, dan Favorit menggunakan `BottomNavigationBar`.
-- **Tema**: Desain visual terinspirasi dari aplikasi CGV.
+- **Tema**: Desain visual terinspirasi dari aplikasi **CGV CINEMAS**.
 
 ## 🛠️ Package & Referensi
 - [carousel_slider | Flutter package](https://pub.dev/packages/carousel_slider)
